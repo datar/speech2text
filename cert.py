@@ -1,0 +1,1 @@
+SPEECH_API_KEY = 'AIzaSyCRVIoxSrEN9B3WWGz5D-vK-e5fulekTNo'
