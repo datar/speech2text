@@ -24,7 +24,7 @@ def get_pos_from_file(pos_file):
     with open(pos_file) as infile:
         for i, line in enumerate(infile.readlines()):
             people, end = line.split(' ')
-            end = int(end)/100000*60000 + int(end)%100000
+            end = int(end)//100000*60000 + int(end)%100000
             positions.append([i, people, start, end])
             start = end
     infile.close()
